@@ -169,8 +169,8 @@
          * @param minutes The number of minutes.
          * @return The number of milliseconds equivalent to the given number of minutes.
          */
+        static final Integer MILLISECONDS_PER_MINUTE = 60000;
         public static Integer convertMinutesToMilliseconds(Integer minutes) {
-            final Integer MILLISECONDS_PER_MINUTE = 60000;
             Integer milliseconds = minutes * MILLISECONDS_PER_MINUTE;
             return milliseconds;
         }
